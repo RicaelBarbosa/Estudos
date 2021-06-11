@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        mark {
+            background-color: lime;
+        }
+    </style>
+    <title>Formatação de texto</title>
+</head>
+
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito/Destaque</h2>
+    <p>Nesta frase, tenho um <b>termo em negrito</b> usando a TAG B (Não semântica)</p>
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a TAG STRONG (Semântica)</p>
+    <h2>Itálico/Ênfase</h2>
+    <p>Nesta frase, tenho um <i>Termo em itálico</i> usando a TAG I (Não semântica)</p>
+    <p>Nesta frase, tenho um <em>Termo em Ênfase</em> usando a TAG EM (Semântica)
+    <p>
+    <h2>Texto Marcado</h2>
+    <p>Podemos usar tbm <mark>um texto marcado</mark> usando a TAG MARK</p>
+    <p>Agora, como mudar a cor? lembrando que <strong> cor é forma ou seja CSS! e Significado é HTML! </strong>
+        Vamos usar a TAG Style!</p>
+    <p> Exemplo: <mark style="background-color: lime;"> Texo marcado de outra cor</mark></p>
+    <p> Porém ele não erda a cor para todos os intes que quero marcar, para isso, cruiamos um seletor no head:</p>
+    <p> <strong> &lt;/style&gt; mark { background-color: lime; } &lt;/style&gt; </strong> </p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto Grande</big> e um <small>Texto pequeno.</small>Usamos a tag BIG, para o texto
+        grande, mas ela está se tornando <mark>obsoleta,</mark> para isso, vamos tratar no CSS.</p>
+    <h2>Texto Deltado</h2>
+    <p>Podemos marcar um texto que foi <del>deletado</del> para indicar que você deve ler, mas não considerar. PAra isso
+        usamos a TAG DEL</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar ênfase e indicar que ele foi inserido depois. Para isso
+        usandos a TAG INS</p>
+    <h2>Texto Sobrescrito</h2>
+    <p>Para usar coisas do tipo x<sup>20</sup>+3. Para isso, usamos a TAG SUP</p>
+    <h2>Texto Subscrito</h2>
+    <p>Para usar em coisas do tipo H<sub>2</sub>O. Para isso, usamos a TAG SUB</p>
+</body>
+
+</html>
