@@ -1,0 +1,13 @@
+*   {
+    margin: 0;
+    padding: 0;
+    }
+
+#a {
+    background: rgb(0, 17, 255);
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    }
