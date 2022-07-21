@@ -1,0 +1,39 @@
+.cabecalho {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+.area-logo, .area-menu {
+    padding: 10px;
+}
+
+.titulo-logo {
+    font-size: 2.5em;
+    color: #4e4e4e;
+    padding-bottom: 5px;
+}
+
+.blog {
+    color: white;
+    padding-bottom: 5px;
+}
+
+.link-cabecalho {
+    font-size: 1.150em;
+    text-decoration: none;
+    padding: 8px;
+    margin: 5px;
+    border-left: medium solid white
+}
+
+.link-cabecalho:link, .link-cabecalho:visited {
+    color: #FFF;
+}
+
+.link-cabecalho:hover {
+    border-left: medium solid #4e4e4e;
+    color: #F7b600;
+    background-color: #FFF;
+    transition: 0.5s all ease-in-out;
+}

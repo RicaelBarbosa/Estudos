@@ -1,0 +1,55 @@
+.postagem1 {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.postagem2 {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+h2 {
+    color: #F7b600;
+}
+
+.data-post {
+    font-size: 0.9em;
+    border-bottom: 1px solid #4e4e4e2a;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.descricao-postagem {
+    padding-bottom: 15px;
+    font-size: 1.05em;
+}
+
+.leia-mais { 
+    font-size: 1.150em;
+    text-decoration: none;
+    background-color: #F7b600;
+    padding: 8px;
+    border-left: medium solid #4e4e4e;
+    
+}
+
+.leia-mais:link, .leia-mais:visited {
+    color: white;
+}
+
+.leia-mais:hover {
+    border: 0.5px solid #F7b600;
+    border-left: medium solid #4e4e4e;
+    color: #4e4e4e;
+    background: #FFF;
+    transition: 0.8s all ease-in-out;
+}
+
+hr {
+    margin-top: 5px;
+}
+
+

@@ -1,0 +1,39 @@
+.area-lateral {
+    width: 240px;
+    float: right;
+    
+}
+
+.conteudo-lateral {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.titulo-postagens__lateral {
+    color: #565656;
+    background-color: #c6c6c6;
+    padding: 5px;
+}
+
+.descricao-lateral {
+    padding: 5px;
+    font-size: 1.0em;
+}
+
+.leia-mais__lateral{
+    text-decoration: none;
+    margin: 5px;
+}
+
+.leia-mais__lateral:visited {
+    color: #F7b600;
+}
+
+.link-lateral {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: #F7b600;
+    margin-top: 3px;
+}
